@@ -1,0 +1,130 @@
+.font-Playfair{
+    font-family: Playfair Display
+}
+
+header a{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+header li.active a{
+    font-weight: 700;
+}
+
+.social-navbar a:hover i{
+     color: #30ABAE;
+ }
+
+.bg-blog-grey{
+    background: #F2F5F1;
+}
+.main_title{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.secondary_title{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.third_title{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.banner_photo{
+    position: absolute;
+    top: 43%;
+    left: 640px;
+    transform: translateY(-50%) ;
+    height: 540px;
+}
+
+.country_title span{
+    color: #c5c5c5;
+    position: relative;
+    padding-left: 25px;
+    margin-left: 5px;
+}
+
+.country_title span::before{
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) ;
+    display: inline-block;
+    background: #ED8651;
+    width: 5px;
+    height: 5px;
+    border-radius:100% ;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.border-red-left{
+    position: relative;
+}
+
+.border-red-left::before{
+    content: '';
+
+    display: block;
+    height: 90%;
+    width: 2px;
+
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+
+    background: #ED9651;
+}
+
+.bg-dark-blue{
+    background: #16595A;
+}
+
+
+
+footer .main-nav .nav-item{
+    padding-left: 10px;
+}
+
+footer .main-nav .nav-link{
+    position: relative;
+    padding-left: 19px;
+}
+
+footer .main-nav .nav-link::before{
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+
+    background: #30ABAE;
+}
+
+footer .nav-item{
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+footer .nav-link:hover{
+    color: #30ABAB
+}
+footer .social-navbar a{
+    font-size:24px;
+}
+
+

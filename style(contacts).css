@@ -1,0 +1,148 @@
+.font-Playfair{
+    font-family: Playfair Display
+}
+
+header a{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+header li.active a{
+    font-weight: 700;
+}
+
+.social-navbar a:hover i{
+    color: #30ABAE;
+}
+
+.bg-blog-grey{
+    height: 742px;
+    width: 928px;
+    background: #F2F5F1;
+    position: absolute;
+    top: 159px;
+}
+
+.bg{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 96px;
+    color: #000000;
+    position:absolute;
+    top: 102px;
+    left: 208px;
+}
+.aa{
+    position: absolute;
+    width: 505px;
+    height: 54px;
+    left: 467.5px;
+    top: 258px;
+}
+
+.ab{
+    position: absolute;
+    width: 505px;
+    height: 54px;
+    left: 467.5px;
+    top: 339.5px;
+
+    border: 1px solid #30ABAE;
+    box-sizing: border-box;
+}
+
+.input-group{
+    position: absolute;
+    width: 505px;
+    height: 186px;
+    left: 467.5px;
+    top: 421px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+.kn{
+    position: absolute;
+    width: 295px;
+    height: 55.5px;
+    left: 572.5px;
+    top: 644.5px;
+
+    background: #30ABAE;
+    border-radius: 3px;
+}
+
+.kn a{
+    position: absolute;
+    left: 95px;
+    top: 15.5px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    letter-spacing: 0.05em;
+
+    color: snow;
+
+    border-radius: 3px;
+}
+
+.bg-dark-blue{
+    background: #16595A;
+}
+
+footer .main-nav .nav-item{
+    padding-left: 10px;
+}
+
+footer .main-nav .nav-link{
+    position: relative;
+    padding-left: 19px;
+}
+
+footer .main-nav .nav-link::before{
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+
+    background: #30ABAE;
+}
+
+footer .nav-item{
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+footer .nav-link:hover{
+    color: #30ABAB
+}
+footer .social-navbar a{
+    font-size:24px;
+}
+.nav-linka{
+    color: #30ABAE;
+}
+
+
+footer{
+
+    position: absolute;
+    top: 800px;
+    width: 1445px;
+    height: 89.85px;
+}
